@@ -1,0 +1,57 @@
+.container-edit{
+    background-image: url('../Icons/FondoInicio.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    align-content: center;
+}
+
+.data-container {
+    display: flex;
+    flex-direction: column; /* Ordena los botones verticalmente */
+    align-items: left; /* Opcional: centra los botones horizontalmente */
+    gap: 4px; /* Espacio entre los botones */
+}
+
+.form-control{
+    width: 50px;
+    color: white !important;
+    background-color: rgba(0,0,0,0.3) !important;
+    box-shadow: none !important;
+    border:0 !important;
+}
+
+button.guardar_edit_btn{
+    color: black;
+    background-color: #FFC312;
+    width: 150px;
+    border: none;
+}
+
+button.guardar_edit_btn:hover{
+    color: black;
+    background-color: white;
+}
+
+button.guardar_edit_btn:active{
+    color: black !important;
+    background-color: aqua !important;
+}
+
+
+button.cancelar_edit_btn{
+    color: black;
+    background-color: red;
+    width: 150px;
+    border: none;
+}
+
+button.cancelar_edit_btn:hover{
+    color: black;
+    background-color: white;
+}
+
+button.cancelar_edit_btn:active{
+    color: black !important;
+    background-color: aqua !important;
+}

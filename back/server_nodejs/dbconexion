@@ -1,0 +1,2 @@
+mysql -h tu-endpoint-de-rds.amazonaws.com -P 3306 -u tu-usuario -p
+sudo nano /etc/mysql/my.cnf

@@ -1,0 +1,37 @@
+.container-config{
+    background-image: url('../Icons/FondoInicio.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    align-content: center;
+}
+
+.config-card{
+    height: 375px;
+    width: 600px;
+    margin-top: 0%;
+    margin-bottom: auto;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+.config-card-header h3{
+    color: white;
+    text-align: center;
+}
+
+button.cuenta_config_btn{
+    color: black;
+    background-color: skyblue;
+    width: 275px;
+    border: none;
+}
+
+button.cuenta_config_btn:hover{
+    color: black;
+    background-color: white;
+}
+
+button.cuenta_config_btn:active{
+    color: black !important;
+    background-color: #FFC312!important;
+}

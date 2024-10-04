@@ -1,0 +1,56 @@
+.explorer-card{
+    height: 490px;
+    width: 600px;
+    margin-top: 6%;
+    margin-bottom: auto;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+.explorer-card-header h3{
+    color: white;
+    text-align: center;
+}
+
+.datos{
+    color: white;
+}
+
+button.crear_btn{
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+    border: none;
+}
+
+button.crear_btn:hover{
+    color: black;
+    background-color: white;
+}
+
+button.crear_btn:active{
+    color: black !important;
+    background-color: aqua !important;
+}
+
+input[type="file"]::file-selector-button {
+    background-color: #FFC312;
+    color: black;
+    border: none;
+    padding: 6px 7px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="file"]::file-selector-button:hover {
+    background-color: white;
+}
+
+input[type="file"]::file-selector-button:active {
+    background-color: aqua !important;
+    transform: scale(0.98);
+}
+
+.custom-file-input{
+    width: 250px;
+    color: white;
+}

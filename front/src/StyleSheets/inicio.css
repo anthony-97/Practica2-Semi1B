@@ -1,0 +1,57 @@
+
+.container-inicio{
+    background-image: url('../Icons/FondoInicio.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    align-content: center;
+}
+
+.inicio-card{
+    height: 490px;
+    width: 600px;
+    margin-top: 0%;
+    margin-bottom: auto;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+.inicio-card-header h3{
+    color: white;
+    text-align: center;
+}
+
+.info {
+    /*position: absolute; /* O fixed, dependiendo del caso */
+    /*top: 55%; /* Posición vertical */
+    /*left: 35%; /* Posición horizontal */
+    /*transform: translate(-50%, -50%); /* Para centrar el contenido */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente (opcional) */
+    padding: 10px; /* Espacio interno */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 250px; /* Ancho fijo */
+    text-align: center; /* Centrar el texto */
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column; /* Ordena los botones verticalmente */
+    align-items: center; /* Opcional: centra los botones horizontalmente */
+    gap: 30px; /* Espacio entre los botones */
+}
+
+button.usuario_btn{
+    color: black;
+    background-color: skyblue;
+    width: 215px;
+    border: none;
+}
+
+button.usuario_btn:hover{
+    color: black;
+    background-color: white;
+}
+
+button.usuario_btn:active{
+    color: black !important;
+    background-color: #FFC312!important;
+}
